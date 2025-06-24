@@ -3,7 +3,7 @@ import base64
 import json
 
 app = Flask(__name__)
-FLAG = "flag{sweet_treats_for_admins}"
+FLAG = "layer8{$w33ttr3ats4adm1ns}"
 
 @app.route("/")
 def index():
